@@ -1,1 +1,51 @@
 /** CSS STYLE **/
+
+:root {
+  /** Colors **/
+  --white: #fff;
+  --background-light: #d7ccc0;
+  --secondary: #908d8b;
+  --text-color: #2a2626;
+  --background-dark: #b09a81;
+  --primary: #fe8a02;
+  --primary-dark: #42413c;
+  --light: #f5f4f0;
+  --link: #1085c5;
+
+  /** Fonts **/
+  --font-main: 'Open-sans';
+  --font-headers: 'Neucha';
+}
+
+html,
+body {
+  color: var(--text-color);
+  font-size: 16px;
+  font-family: var(--font-main);
+  line-height: 1.6em;
+}
+
+h1,
+h2,
+h3 {
+  font-size: var(--font-headers);
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 3.75rem;
+}
+
+h3 {
+  font-size: 2.125rem;
+}
+
+section {
+  width: 100%;
+  max-width: 1100px;
+  padding: 100px 0;
+}
