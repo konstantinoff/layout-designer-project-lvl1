@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-<div class="background-image">
-    <header class="header">
+<header class="header background-image">
+    <div class="container">
         <h1 class="title">
             <span class="is-orange">Когнитивные <br />
             искажения <br />
@@ -30,64 +30,171 @@
                 </button>
             </div>
         </div>
-    </header>
-</div>
+    </div>
+</header>
 <main>
     <section class="video">
-        <h2 class="video__header">Что же это такое <br />
-            <span class="is-orange">когнитивные искажения?</span>
-        </h2>
-        <span class="vide__text">Что такое когнитивные искажения. Petrovna Channel</span>
-        <iframe class="video__frame" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
+        <div class="container">
+            <h2 class="video__header">Что же это такое <br />
+                <span class="is-orange">когнитивные искажения?</span>
+            </h2>
+            <span class="vide__text">Что такое когнитивные искажения. Petrovna Channel</span>
+            <iframe class="video__frame" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen></iframe>
+        </div>
     </section>
-
-    <div class="background-dark">
-        <section class="cards">
+    <section class="cards">
+        <div class="container">
             <ul class="cards__list">
                 <li class="card__wrapper">
-                    <h2 class="card__title"><span class="is-orange">5 когнитивных искажений</span>
+                    <h2 class="cards__title"><span class="is-orange">5 когнитивных искажений</span>
                         <br />
                         о существовании которых стоит помнить
                     </h2>
                 </li>
                 <li class="card__wrapper">
-                    <a href="#" class="card">
+                    <a href="#1" class="card">
                         <span class="card__number">1</span>
                         <h3 class="card__header">Эффект ИКЕА</h3>
                         <p class="card__description">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
                     </a>
                 </li>
                 <li class="card__wrapper">
-                    <a href="#" class="card">
+                    <a href="#2" class="card">
                         <span class="card__number">2</span>
                         <h3 class="card__header">Преждевременная оптимизация</h3>
                         <p class="card__description">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
                     </a>
                 </li>
                 <li class="card__wrapper">
-                    <a href="#" class="card">
+                    <a href="#3" class="card">
                         <span class="card__number">3</span>
                         <h3 class="card__header">Искажение новизны</h3>
                         <p class="card__description">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
                     </a>
                 </li>
                 <li class="card__wrapper">
-                    <a href="#" class="card">
+                    <a href="#4" class="card">
                         <span class="card__number">4</span>
                         <h3 class="card__header">Гиперболическое обесценивание</h3>
                         <p class="card__description">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
                     </a>
                 </li>
                 <li class="card__wrapper">
-                    <a href="#" class="card">
+                    <a href="#5" class="card">
                         <span class="card__number">5</span>
                         <h3 class="card__header">Ошибка планирования</h3>
                         <p class="card__description">Неправильно рассчитывать время необходимое для завершения задачи.</p>
                     </a>
                 </li>
             </ul>
-        </section>
-    </div>
+        </div>
+    </section>
+    <article id="1" class="info background-image">
+        <div class="container">
+            <div class="info__wrapper">
+                <img class="info__image" src="./images/1.png" alt="Эффект ИКЕА">
+                <div class="info__main">
+                    <span class="info__subtitle">
+                        Когнитивные искажения
+                    </span>
+                    <h2 class="info__header">Эффект ИКЕА</h2>
+                    <h3 class="info__description">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</h3>
+                </div>
+            </div>
+            <div class="info__footer">
+                <span class="info__label">Как проявляется</span>
+                <div class="info__text">
+                    <p class="info__paragraph">Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</p>
+                    <p class="info__paragraph">Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="2" class="info info--invert background-image">
+        <div class="container">
+            <div class="info__wrapper">
+                <img class="info__image" src="./images/2.png" alt="Гиперболическое обесценивание">
+                <div class="info__main">
+                    <span class="info__subtitle">
+                        Когнитивные искажения
+                    </span>
+                    <h2 class="info__header">Преждевременная оптимизация</h2>
+                    <h3 class="info__description">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</h3>
+                </div>
+            </div>
+            <div class="info__footer">
+                <span class="info__label">Как проявляется</span>
+                <div class="info__text">
+                    <p class="info__paragraph">Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо ремонта мотора, то автомобиль не станет быстрее.</p>
+                    <p class="info__paragraph">Отличный пример: писать максимально подтюненный и высокопроизводительный код для всего лишь экспериментального проекта.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="3" class="info background-image">
+        <div class="container">
+            <div class="info__wrapper">
+                <img class="info__image" src="./images/3.png" alt="Гиперболическое обесценивание">
+                <div class="info__main">
+                    <span class="info__subtitle">
+                        Когнитивные искажения
+                    </span>
+                    <h2 class="info__header">Искажение новизны</h2>
+                    <h3 class="info__description">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</h3>
+                </div>
+            </div>
+            <div class="info__footer">
+                <span class="info__label">Как проявляется</span>
+                <div class="info__text">
+                    <p class="info__paragraph">Часто это искажение настигает нас, когда нужно решение проблемы и… о! Мы как раз только что решили подобную проблему! Давайте использовать это же решение, потому что оно сработало, и мы помним как!</p>
+                    <p class="info__paragraph">Вы замечаете, что пользуетесь теми же рабочими методиками раз за разом? Если да, возможно, вы смотрите на разные проблемы под одним и тем же углом.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="4" class="info info--invert background-image">
+        <div class="container">
+            <div class="info__wrapper">
+                <img class="info__image" src="./images/4.png" alt="Гиперболическое обесценивание">
+                <div class="info__main">
+                    <span class="info__subtitle">
+                        Когнитивные искажения
+                    </span>
+                    <h2 class="info__header">Гиперболическое обесценивание</h2>
+                    <h3 class="info__description">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</h3>
+                </div>
+            </div>
+            <div class="info__footer">
+                <span class="info__label">Как проявляется</span>
+                <div class="info__text">
+                    <p class="info__paragraph">Вы когда-нибудь откладывали написание теста? Ловили себя на использовании клавиш-стрелок в Vim? Поздравляю, у вас наблюдается гиперболическое обесценивание. </p>
+                    <p class="info__paragraph">Немедленная выгода от использования чего-то быстродоступного значительно смягчает боль, которую нужно перетерпеть, чтобы усвоить правильный синтаксис для перемещения на нужную строчку. Но как только вы поймёте как перемещаться быстрее, выгода в будущем намного выше. В итоге вы сохраните много времени.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="5" class="info background-image">
+        <div class="container">
+            <div class="info__wrapper">
+                <img class="info__image" src="./images/4.png" alt="Гиперболическое обесценивание">
+                <div class="info__main">
+                    <span class="info__subtitle">
+                        Когнитивные искажения
+                    </span>
+                    <h2 class="info__header">Ошибка планирования</h2>
+                    <h3 class="info__description">Неправильно рассчитывать время необходимое для завершения задачи.</h3>
+                </div>
+            </div>
+            <div class="info__footer">
+                <span class="info__label">Как проявляется</span>
+                <div class="info__text">
+                    <p class="info__paragraph">Одно из искажений, которое должно признать большинство из нас. И менеджеры проекта, и сами пользователи продукта — все склонны ставить сроки, в которые невозможно закончить запланированное.</p>
+                    <p class="info__paragraph">Это отлично выражается в старом афоризме: <br />
+                        Первые 90% готового кода отнимают первые 90% времени разработки. Оставшиеся 10% отнимают вторые 90% времени разработки.</p>
+                </div>
+            </div>
+        </div>
+    </article>
 </main>
 <footer></footer>
 </body>
