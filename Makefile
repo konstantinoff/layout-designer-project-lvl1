@@ -6,4 +6,6 @@ lint:
 	npx htmlhint ./src/*.html
 
 deploy:
-	npx surge ./src/
+	npx surge ./src/  layout-desigren-lvl1-konstantinov.surge.sh
+
+
