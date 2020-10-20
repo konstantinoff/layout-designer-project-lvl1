@@ -367,6 +367,7 @@ h3 {
 }
 
 .footer__button {
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -376,6 +377,17 @@ h3 {
   background-color: var(--primary);
   border: 0;
   cursor: pointer;
+}
+
+.footer__button::before {
+  display: block;
+  width: 24px;
+  height: 24px;
+
+  background-image: url("../images/send.svg");
+  background-size: cover;
+
+  content: '';
 }
 
 .footer__button:hover {
