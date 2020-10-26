@@ -22,6 +22,7 @@ body {
   box-sizing: border-box;
 
   color: var(--text-color);
+  font-weight: 400;
   font-size: 16px;
   font-family: var(--font-main);
   line-height: 1.6;
@@ -266,6 +267,10 @@ h3,
 
 .info__main {
   margin-left: 31px;
+}
+
+.info__main .h3 {
+  margin-top: 24px;
 }
 
 .info__subtitle {
